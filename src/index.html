@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Binary Tree</title>
+    <link rel="stylesheet" type="text/css" href="../styles/index.css">
+</head>
+
+<body>
+<h1>Binary Tree</h1>
+<form id="new-node-form">
+    <div class="field">
+        <label>Key:&nbsp&nbsp</label>
+        <input type="text" id="new-node-key" placeholder="">
+    </div>
+    <div class="field">
+        <label>Data:</label>
+        <input type="text" id="new-node-data" placeholder="">
+    </div>
+    <button><h3>Add Node</h3></button>
+</form>
+<form id="remove-node-form">
+    <div class="field">
+        <label>Key:</label>
+        <input type="text" id="remove-node-key" placeholder="">
+    </div>
+    <button><h3>Remove Node</h3></button>
+</form>
+<form id="find-node-form">
+    <div class="field">
+        <label>Key:</label>
+        <input type="text" id="find-node-key" placeholder="">
+    </div>
+    <button><h3>Find Node</h3></button>
+</form>
+<form id="show-tree-form">
+    <button><h3>Show Tree</h3></button>
+</form>
+<hr>
+<table id="show-tree">
+</table>
+    <script data-main="../build/index.js" src="../node_modules/requirejs/require.js"></script>
+</body>
+
+</html>

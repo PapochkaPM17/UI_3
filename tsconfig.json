@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "amd",
+        "moduleResolution": "Node",
+        "lib": ["es6", "dom"],
+        "allowJs": true,
+        "outFile": "./build/index.js",
+        "outDir": "./build",
+        "rootDir": "src",
+        "strict": false,
+        "types": ["node"],
+        "typeRoots" : ["./node_modules/@types"]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude" : [
+        "node_modules",
+        "src/**/*.spec.ts"
+    ]
+}
