@@ -153,7 +153,7 @@
     "no-this-assignment": true,
     "encoding": true,
     "no-irregular-whitespace": true,
-    "prefer-conditional-expression": true,
+    "prefer-conditional-expression": false,
     "no-invalid-template-strings": true,
     "adjacent-overload-signatures": true,
     "no-import-side-effect": true,

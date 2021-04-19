@@ -14,9 +14,24 @@ hr {
     color: #ffffa4;
 }
 
+TABLE {
+    margin: auto;
+}
+
 TD, TH {
     padding: 3px;
-    width: 50px;
+    width: 10px;
+}
+.left {
+    color: blue;
+}
+
+.right {
+    color: red;
+}
+
+.root {
+    color: goldenrod;
 }
 
 p, a, ul, ol, label, input, select {
@@ -29,7 +44,7 @@ form {
     margin: 0.5em;
     padding: 1em;
     background-color: #ffffa4;
-    width: fit-content;
+    width: 20%;
     border-radius: 3px;
 }
 
